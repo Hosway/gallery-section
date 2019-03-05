@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>josue garcia | web dev/design</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+  <div class="gallery-section">
+    <div class="inner-width">
+      <h1>gallery</h1>
+      <div class="border"></div>
+      <div class="gallery">
+
+        <a href="cutty.JPG" class="image">
+          <img src="cutty.JPG" alt="">
+        </a>
+
+        <a href="cutty-2.JPG" class="image">
+          <img src="cutty-2.JPG" alt="">
+        </a>
+
+        <a href="cutty-3.JPG" class="image">
+          <img src="cutty-3.JPG" alt="">
+        </a>
+
+        <a href="cutty-4.JPG" class="image">
+          <img src="cutty-4.JPG" alt="">
+        </a>
+
+        <a href="rsa-img1.jpg" class="image">
+          <img src="rsa-img1.jpg" alt="">
+        </a>
+
+        <a href="rsa2.JPG" class="image" width="10" height="20">
+          <img src="rsa2.JPG" alt="">
+        </a>
+
+        <a href="rsa4.JPG" class="image">
+          <img src="rsa4.JPG" alt="">
+        </a>
+
+        <a href="rsa5.JPG" class="image">
+          <img src="rsa5.JPG" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+    });
+  </script>
+</body>
+</html>
