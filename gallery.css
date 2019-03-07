@@ -47,6 +47,7 @@
   width: 375px;
   height: 100%;
   transition: 0.4s;
+  padding: 1em;
 }
 
 .gallery-section .image:hover img {
